@@ -5,3 +5,6 @@ print("Sample width ",obj.getsampwidth())
 print("Frame rate",obj.getframerate())
 print("Number of frames",obj.getnframes())
 print("Parameters",obj.getparams())
+
+t_audio=obj.getnframes()/obj.getframerate()
+print(t_audio)
